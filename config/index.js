@@ -62,7 +62,7 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "冰冰",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oaR426C8iu7d4vzW5vtHvB9HXyb4",
+      id: "oaR426NZoUAzl12Cjn0PkWSTmU9Y",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "FcUzQEr6pmYtr1g44-ZRzpBo-FtOSB7GRdwxPFcb8uw",
       // 所在省份
@@ -96,7 +96,7 @@ export const USER_CONFIG = {
     },
     {
       name: "冰冰",
-      id: "oaR426C8iu7d4vzW5vtHvB9HXyb4",
+      id: "oaR426NZoUAzl12Cjn0PkWSTmU9Y",
       useTemplateId: "FcUzQEr6pmYtr1g44-ZRzpBo-FtOSB7GRdwxPFcb8uw",
       province: "河北",
       city: "承德",
