@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx275f1a3e8c5d7e8a",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "dd5cd3d8fb9c17ea16fda95a99e9f68c",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -32,19 +32,19 @@ export const USER_CONFIG = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords:true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup:true,
     // 古诗古文
-    poetry: false,
+    poetry:true,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope:true,
     
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage:true,
   },
   
   /** 每日一言 */
@@ -60,17 +60,17 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "冰冰",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oaR426NZoUAzl12Cjn0PkWSTmU9Y",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "dKxDeQpzTb8h3y4WM1jpxvTsdurLHRtoTsvmTPdplXs",
       // 所在省份
-      province: "广东",
+      province: "河北",
       // 所在城市
-      city: "肇庆",
+      city: "承德",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '08-31',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
