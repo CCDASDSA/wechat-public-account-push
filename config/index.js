@@ -96,14 +96,14 @@ export const USER_CONFIG = {
     },
     {
       name: "冰冰",
-      id: "oaR426NZoUAzl12Cjn0PkWSTmU9Y",
-      useTemplateId: "FcUzQEr6pmYtr1g44-ZRzpBo-FtOSB7GRdwxPFcb8uw",
+      id: "",
+      useTemplateId: "",
       province: "河北",
       city: "承德",
-      horoscopeDate: '08-10',
-      horoscopeDateType: '阳历',
+      horoscopeDate: '',
+      horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [08-31],
+      festivals: [],
       customizedDateList: []
     },
     {
